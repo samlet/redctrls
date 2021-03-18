@@ -1,0 +1,20 @@
+[workspace]
+members = [
+	"entity-delegator",
+	"stubs",
+	"reader",
+	"learn",
+	"meta-server",
+	"functor",
+	"modules/mod-common",
+	"modules/sample-books",
+	"modules/sample-posts",
+	"modules/all-about-inserts",
+	"modules/advanced-blog-cli"
+]
+
+[profile.release]
+panic = "abort"
+lto = true
+
+
